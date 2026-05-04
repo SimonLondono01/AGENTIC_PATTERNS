@@ -51,7 +51,7 @@ class ToolAgent:
     def __init__(
         self,
         tools: Tool | list[Tool],
-        model: str = "llama-3.3-70b-versatile",
+        model: str = "llama-3.1-8b-instant",
     ) -> None:
         self.client = Groq()
         self.model = model
