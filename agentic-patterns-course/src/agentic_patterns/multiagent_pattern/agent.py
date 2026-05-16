@@ -38,7 +38,7 @@ class Agent:
         task_description: str,
         task_expected_output: str = "",
         tools: list[Tool] | None = None,
-        llm: str = "llama-3.3-70b-versatile",
+        llm: str = "llama-3.1-8b-instant",
     ):
         self.name = name
         self.backstory = backstory
